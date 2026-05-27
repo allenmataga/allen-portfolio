@@ -1,5 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
-
+import { useState, useEffect, useRef } from "react";
 // ─── THEME & CONSTANTS ────────────────────────────────────────────────────────
 const THEME = {
   bg: "#050a0e",
@@ -759,7 +758,7 @@ export default function Portfolio() {
             <div style={{
               fontSize: 13, color: THEME.accent, letterSpacing: 2,
               fontFamily: "'Fira Code', monospace", marginBottom: 16,
-            }}>// profile.json</div>
+            }}>{/* profile.json */}</div>
             <pre style={{
               color: THEME.text, fontSize: 14, lineHeight: 1.9,
               fontFamily: "'Fira Code', monospace", whiteSpace: "pre-wrap",
