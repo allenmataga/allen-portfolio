@@ -970,7 +970,7 @@ export default function Portfolio() {
             { icon: "✉️", label: "Email", value: "alleninocencion@gmail.com", href: "mailto:alleninocencion@gmail.com" },
             { icon: "📱", label: "Phone", value: "+63 938 757 3907", href: "tel:+639387573907" },
             { icon: "📍", label: "Location", value: "Mandaluyong City, Philippines", href: "#" },
-            { icon: "💼", label: "Resume", value: "Download CV / Resume", href: "https://drive.google.com/file/d/1MnbPVLmhpBCnEuLbdAVEikUcpOuEJk1L/view?usp=sharing" },
+            { icon: "💼", label: "Resume", value: "Download CV / Resume", href: "https://drive.google.com/drive/folders/1VcNox2YMFp8m6qRt6FJ7FQabkf8qNZRa?usp=drive_link" },
           ].map((c, i) => (
             <a key={i} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"
               style={{ textDecoration: "none" }}>
